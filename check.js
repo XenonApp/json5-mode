@@ -1,5 +1,3 @@
-var JSON5 = require("./json5.js");
-
 /**
  * Required inputs: text
  */

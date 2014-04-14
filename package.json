@@ -4,7 +4,6 @@
     "version": "0.1",
     "description": "JSON5 mode for Zed",
     "files": [
-        "json5.js",
         "check.js"
     ]
 }
