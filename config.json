@@ -1,6 +1,6 @@
 {
     "modes": {
-        "json": {
+        "json5": {
             "name": "JSON 5",
             "highlighter": "ace/mode/json",
             "extensions": ["json5"],
