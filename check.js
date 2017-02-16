@@ -1,3 +1,8 @@
+'use strict';
+
+// TODO: mark that this is necessary somewhere somehow
+const JSON5 = require('json5');
+
 /**
  * Required inputs: text
  */
