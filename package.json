@@ -1,9 +1,10 @@
 {
     "name": "JSON5 Mode",
     "uri": "gh:xenonapp/json5-mode",
-    "version": "0.2",
+    "version": "0.3.0",
     "description": "JSON5 mode for Zed",
     "files": [
-        "check.js"
+        "check.js",
+        "json5.js"
     ]
 }
