@@ -1,10 +1,47 @@
 {
-    "name": "JSON5 Mode",
-    "uri": "gh:xenonapp/json5-mode",
-    "version": "0.3.0",
-    "description": "JSON5 mode for Zed",
-    "files": [
-        "check.js",
-        "json5.js"
-    ]
+  "name": "json5-tools",
+  "version": "0.0.0",
+  "description": "JSON5 tools for Xenon.  Includes linting.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XenonApp/json5-tools.git"
+  },
+  "keywords": [
+    "xenon",
+    "xenon-package"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XenonApp/json5-tools/issues"
+  },
+  "homepage": "https://github.com/XenonApp/json5-tools#readme",
+  "xenon": {
+    "modes": {
+      "json5": {
+        "commands": {
+          "Tools:Check": {
+            "fn": "check",
+            "inputs": {
+              "text": true
+            },
+            "internal": true,
+            "sandbox": "check"
+          }
+        },
+        "handlers": {
+          "check": [
+            "Tools:Check"
+          ]
+        }
+      }
+    }
+  },
+  "dependencies": {
+    "json5": "^0.5.1"
+  }
 }

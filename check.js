@@ -1,6 +1,6 @@
 'use strict';
 
-const JSON5 = require('./json5');
+const JSON5 = require('json5');
 
 /**
  * Required inputs: text
