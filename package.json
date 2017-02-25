@@ -1,6 +1,6 @@
 {
   "name": "xenon-json5-tools",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "JSON5 tools for Xenon.  Includes linting.",
   "main": "main.js",
   "scripts": {
