@@ -1,0 +1,20 @@
+{
+    "modes": {
+        "json5": {
+            "commands": {
+                "Tools:Check": {
+                    "fn": "check",
+                    "inputs": {
+                        "text": true
+                    },
+                    "internal": true,
+                    "sandbox": "check"
+                }
+            },
+            "handlers": {
+                "check": [
+                    "Tools:Check"]
+            }
+        }
+    }
+}

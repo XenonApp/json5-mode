@@ -20,27 +20,6 @@
     "url": "https://github.com/XenonApp/json5-tools/issues"
   },
   "homepage": "https://github.com/XenonApp/json5-tools#readme",
-  "xenon": {
-    "modes": {
-      "json5": {
-        "commands": {
-          "Tools:Check": {
-            "fn": "check",
-            "inputs": {
-              "text": true
-            },
-            "internal": true,
-            "sandbox": "check"
-          }
-        },
-        "handlers": {
-          "check": [
-            "Tools:Check"
-          ]
-        }
-      }
-    }
-  },
   "dependencies": {
     "json5": "^0.5.1"
   }
