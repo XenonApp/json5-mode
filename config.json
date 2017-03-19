@@ -2,6 +2,13 @@
     "modes": {
         "json5": {
             "commands": {
+                "Tools:Beautify": {
+                    "fn": "beautify",
+                    "inputs": {
+                        "text": true,
+                        "preferences": true
+                    }
+                },
                 "Tools:Check": {
                     "fn": "check",
                     "inputs": {
@@ -13,7 +20,8 @@
             },
             "handlers": {
                 "check": [
-                    "Tools:Check"]
+                    "Tools:Check"
+                ]
             }
         }
     }

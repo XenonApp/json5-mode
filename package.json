@@ -22,5 +22,8 @@
   "homepage": "https://github.com/XenonApp/json5-tools#readme",
   "dependencies": {
     "json5": "^0.5.1"
+  },
+  "peerDependencies": {
+    "xenon-javascript-tools": "~0.1.0"
   }
 }
