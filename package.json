@@ -1,7 +1,7 @@
 {
   "name": "xenon-json5-tools",
   "version": "0.2.0",
-  "description": "JSON5 tools for Xenon.  Includes linting.",
+  "description": "JSON5 tools for Xenon.  Includes linting and beautifying.",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
